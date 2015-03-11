@@ -21,7 +21,7 @@ Export-Package: com.ximpleware,
  org.dom4j.xpath,
  org.dom4j.xpp
 Require-Bundle: org.junit4;resolution:=optional,
- net.heartsome.cat.thirdpartlibrary;bundle-version="1.0.0"
+ net.heartsome.cat.thirdpartlibrary;bundle-version="1.0.0";resolution:=optional
 Bundle-ClassPath: .,
  lib/dom4j-1.6.1.jar
 Bundle-Vendor: Heartsome Technologies Ltd.

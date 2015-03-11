@@ -7,23 +7,25 @@ Bundle-Activator: net.heartsome.cat.te.tmxeditor.Activator
 Bundle-Vendor: Heartsome Technologies Ltd.
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- net.sourceforge.nattable.core;bundle-version="8.0.0",
- net.heartsome.cat.te.core;bundle-version="1.0.0",
+ net.sourceforge.nattable.core;bundle-version="8.0.0";resolution:=optional,
+ net.heartsome.cat.te.core;bundle-version="1.0.0";resolution:=optional,
  org.eclipse.jface.text;bundle-version="3.7.0",
- net.heartsome.cat.thirdpartlibrary;bundle-version="8.0.0",
+ net.heartsome.cat.thirdpartlibrary;bundle-version="8.0.0";resolution:=optional,
  org.eclipse.core.resources;bundle-version="3.7.100",
- net.heartsome.xml;bundle-version="8.0.1",
- org.eclipse.core.expressions;bundle-version="3.4.300"
+ net.heartsome.xml;bundle-version="8.0.1";resolution:=optional,
+ org.eclipse.core.expressions;bundle-version="3.4.300",
+ org.eclipse.ui.workbench
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
-Import-Package: net.heartsome.cat.common.bean,
- net.heartsome.cat.common.innertag,
- net.heartsome.cat.common.innertag.factory,
- net.heartsome.cat.common.ui.dialog,
- net.heartsome.cat.common.ui.innertag,
- net.heartsome.cat.common.ui.utils,
- net.heartsome.cat.common.util
+Import-Package: net.heartsome.cat.common.bean;resolution:=optional,
+ net.heartsome.cat.common.innertag;resolution:=optional,
+ net.heartsome.cat.common.innertag.factory;resolution:=optional,
+ net.heartsome.cat.common.ui.dialog;resolution:=optional,
+ net.heartsome.cat.common.ui.innertag;resolution:=optional,
+ net.heartsome.cat.common.ui.utils;resolution:=optional,
+ net.heartsome.cat.common.util;resolution:=optional,
+ org.apache.commons.logging;version="1.1.1"
 Export-Package: net.heartsome.cat.te.tmxeditor,
  net.heartsome.cat.te.tmxeditor.editor,
  net.heartsome.cat.te.tmxeditor.editor.history,

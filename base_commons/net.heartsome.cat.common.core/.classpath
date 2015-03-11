@@ -7,5 +7,13 @@
 	<classpathentry kind="lib" path="lib/chardet-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/cpdetector_1.0.10.jar"/>
 	<classpathentry kind="lib" path="lib/jargs-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/hslibrary3.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/resolver.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.lang_2.4.0.v201005080502.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
