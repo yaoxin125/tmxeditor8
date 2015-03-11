@@ -35,6 +35,7 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.internal.EditorHistory;
 import org.eclipse.ui.internal.EditorHistoryItem;
 import org.eclipse.ui.internal.Workbench;
+import org.eclipse.ui.part.FileEditorInput;
 import org.eclipse.ui.part.IPage;
 import org.osgi.framework.Bundle;
 
